@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54172612BFD984B00CF33AA /* LilyComposerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172602BFD984B00CF33AA /* LilyComposerApp.swift */; };
+		F54172632BFD984B00CF33AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172622BFD984B00CF33AA /* ContentView.swift */; };
+		F54172652BFD984D00CF33AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54172642BFD984D00CF33AA /* Assets.xcassets */; };
+		F54172682BFD984D00CF33AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54172672BFD984D00CF33AA /* Preview Assets.xcassets */; };
+		F54172722BFD984D00CF33AA /* LilyComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172712BFD984D00CF33AA /* LilyComposerTests.swift */; };
+		F541727C2BFD984D00CF33AA /* LilyComposerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541727B2BFD984D00CF33AA /* LilyComposerUITests.swift */; };
+		F541727E2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F541726E2BFD984D00CF33AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54172552BFD984B00CF33AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F541725C2BFD984B00CF33AA;
+			remoteInfo = LilyComposer;
+		};
+		F54172782BFD984D00CF33AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54172552BFD984B00CF33AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F541725C2BFD984B00CF33AA;
+			remoteInfo = LilyComposer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F541725D2BFD984B00CF33AA /* LilyComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54172602BFD984B00CF33AA /* LilyComposerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerApp.swift; sourceTree = "<group>"; };
+		F54172622BFD984B00CF33AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F54172642BFD984D00CF33AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54172672BFD984D00CF33AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F541726D2BFD984D00CF33AA /* LilyComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54172712BFD984D00CF33AA /* LilyComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerTests.swift; sourceTree = "<group>"; };
+		F54172772BFD984D00CF33AA /* LilyComposerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyComposerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F541727B2BFD984D00CF33AA /* LilyComposerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerUITests.swift; sourceTree = "<group>"; };
+		F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F541725A2BFD984B00CF33AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541726A2BFD984D00CF33AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54172742BFD984D00CF33AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54172542BFD984B00CF33AA = {
+			isa = PBXGroup;
+			children = (
+				F541725F2BFD984B00CF33AA /* LilyComposer */,
+				F54172702BFD984D00CF33AA /* LilyComposerTests */,
+				F541727A2BFD984D00CF33AA /* LilyComposerUITests */,
+				F541725E2BFD984B00CF33AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F541725E2BFD984B00CF33AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F541725D2BFD984B00CF33AA /* LilyComposer.app */,
+				F541726D2BFD984D00CF33AA /* LilyComposerTests.xctest */,
+				F54172772BFD984D00CF33AA /* LilyComposerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F541725F2BFD984B00CF33AA /* LilyComposer */ = {
+			isa = PBXGroup;
+			children = (
+				F54172602BFD984B00CF33AA /* LilyComposerApp.swift */,
+				F54172622BFD984B00CF33AA /* ContentView.swift */,
+				F54172642BFD984D00CF33AA /* Assets.xcassets */,
+				F54172662BFD984D00CF33AA /* Preview Content */,
+			);
+			path = LilyComposer;
+			sourceTree = "<group>";
+		};
+		F54172662BFD984D00CF33AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F54172672BFD984D00CF33AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F54172702BFD984D00CF33AA /* LilyComposerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F54172712BFD984D00CF33AA /* LilyComposerTests.swift */,
+			);
+			path = LilyComposerTests;
+			sourceTree = "<group>";
+		};
+		F541727A2BFD984D00CF33AA /* LilyComposerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F541727B2BFD984D00CF33AA /* LilyComposerUITests.swift */,
+				F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */,
+			);
+			path = LilyComposerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F541725C2BFD984B00CF33AA /* LilyComposer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54172812BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposer" */;
+			buildPhases = (
+				F54172592BFD984B00CF33AA /* Sources */,
+				F541725A2BFD984B00CF33AA /* Frameworks */,
+				F541725B2BFD984B00CF33AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LilyComposer;
+			productName = LilyComposer;
+			productReference = F541725D2BFD984B00CF33AA /* LilyComposer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F541726C2BFD984D00CF33AA /* LilyComposerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54172842BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposerTests" */;
+			buildPhases = (
+				F54172692BFD984D00CF33AA /* Sources */,
+				F541726A2BFD984D00CF33AA /* Frameworks */,
+				F541726B2BFD984D00CF33AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F541726F2BFD984D00CF33AA /* PBXTargetDependency */,
+			);
+			name = LilyComposerTests;
+			productName = LilyComposerTests;
+			productReference = F541726D2BFD984D00CF33AA /* LilyComposerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54172762BFD984D00CF33AA /* LilyComposerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54172872BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposerUITests" */;
+			buildPhases = (
+				F54172732BFD984D00CF33AA /* Sources */,
+				F54172742BFD984D00CF33AA /* Frameworks */,
+				F54172752BFD984D00CF33AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54172792BFD984D00CF33AA /* PBXTargetDependency */,
+			);
+			name = LilyComposerUITests;
+			productName = LilyComposerUITests;
+			productReference = F54172772BFD984D00CF33AA /* LilyComposerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54172552BFD984B00CF33AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F541725C2BFD984B00CF33AA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F541726C2BFD984D00CF33AA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F541725C2BFD984B00CF33AA;
+					};
+					F54172762BFD984D00CF33AA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F541725C2BFD984B00CF33AA;
+					};
+				};
+			};
+			buildConfigurationList = F54172582BFD984B00CF33AA /* Build configuration list for PBXProject "LilyComposer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54172542BFD984B00CF33AA;
+			productRefGroup = F541725E2BFD984B00CF33AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F541725C2BFD984B00CF33AA /* LilyComposer */,
+				F541726C2BFD984D00CF33AA /* LilyComposerTests */,
+				F54172762BFD984D00CF33AA /* LilyComposerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F541725B2BFD984B00CF33AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54172682BFD984D00CF33AA /* Preview Assets.xcassets in Resources */,
+				F54172652BFD984D00CF33AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541726B2BFD984D00CF33AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54172752BFD984D00CF33AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54172592BFD984B00CF33AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54172632BFD984B00CF33AA /* ContentView.swift in Sources */,
+				F54172612BFD984B00CF33AA /* LilyComposerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54172692BFD984D00CF33AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54172722BFD984D00CF33AA /* LilyComposerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54172732BFD984D00CF33AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F541727E2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift in Sources */,
+				F541727C2BFD984D00CF33AA /* LilyComposerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F541726F2BFD984D00CF33AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F541725C2BFD984B00CF33AA /* LilyComposer */;
+			targetProxy = F541726E2BFD984D00CF33AA /* PBXContainerItemProxy */;
+		};
+		F54172792BFD984D00CF33AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F541725C2BFD984B00CF33AA /* LilyComposer */;
+			targetProxy = F54172782BFD984D00CF33AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F541727F2BFD984D00CF33AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F54172802BFD984D00CF33AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54172822BFD984D00CF33AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LilyComposer/Preview Content\"";
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54172832BFD984D00CF33AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LilyComposer/Preview Content\"";
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F54172852BFD984D00CF33AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilyComposer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LilyComposer";
+			};
+			name = Debug;
+		};
+		F54172862BFD984D00CF33AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilyComposer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LilyComposer";
+			};
+			name = Release;
+		};
+		F54172882BFD984D00CF33AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LilyComposer;
+			};
+			name = Debug;
+		};
+		F54172892BFD984D00CF33AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7486PTQ9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LilyComposer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54172582BFD984B00CF33AA /* Build configuration list for PBXProject "LilyComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F541727F2BFD984D00CF33AA /* Debug */,
+				F54172802BFD984D00CF33AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54172812BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54172822BFD984D00CF33AA /* Debug */,
+				F54172832BFD984D00CF33AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54172842BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54172852BFD984D00CF33AA /* Debug */,
+				F54172862BFD984D00CF33AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54172872BFD984D00CF33AA /* Build configuration list for PBXNativeTarget "LilyComposerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54172882BFD984D00CF33AA /* Debug */,
+				F54172892BFD984D00CF33AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54172552BFD984B00CF33AA /* Project object */;
+}
