@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F53099312C057F9400013C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53099302C057F9400013C75 /* Assets.xcassets */; };
 		F53099332C0580B000013C75 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F53099322C0580B000013C75 /* MyScene.sks */; };
 		F54172612BFD984B00CF33AA /* LilyComposerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172602BFD984B00CF33AA /* LilyComposerApp.swift */; };
 		F54172682BFD984D00CF33AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54172672BFD984D00CF33AA /* Preview Assets.xcassets */; };
@@ -50,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F53099302C057F9400013C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../.Trash/LittleComposer 22.02.18/LittleComposer/Assets.xcassets"; sourceTree = "<group>"; };
 		F53099322C0580B000013C75 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		F541725D2BFD984B00CF33AA /* LilyComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54172602BFD984B00CF33AA /* LilyComposerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerApp.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				F57DE0F32C022F64008FC833 /* CottonWorldScene.sks */,
 				F53099322C0580B000013C75 /* MyScene.sks */,
 				F57DE0F12C022C72008FC833 /* MyTileSet.sks */,
-				F53099302C057F9400013C75 /* Assets.xcassets */,
 				F54172662BFD984D00CF33AA /* Preview Content */,
 			);
 			path = LilyComposer;
@@ -303,7 +300,6 @@
 				F57DE0F22C022C72008FC833 /* MyTileSet.sks in Resources */,
 				F57A0E7F2C0265BB00A313D0 /* violin.mp3 in Resources */,
 				F57A0E812C02671C00A313D0 /* TotoroFull.mp3 in Resources */,
-				F53099312C057F9400013C75 /* Assets.xcassets in Resources */,
 				F57A0E7E2C0265BB00A313D0 /* flute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
