@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53099312C057F9400013C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53099302C057F9400013C75 /* Assets.xcassets */; };
+		F53099332C0580B000013C75 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F53099322C0580B000013C75 /* MyScene.sks */; };
 		F54172612BFD984B00CF33AA /* LilyComposerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172602BFD984B00CF33AA /* LilyComposerApp.swift */; };
-		F54172632BFD984B00CF33AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172622BFD984B00CF33AA /* ContentView.swift */; };
-		F54172652BFD984D00CF33AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54172642BFD984D00CF33AA /* Assets.xcassets */; };
 		F54172682BFD984D00CF33AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54172672BFD984D00CF33AA /* Preview Assets.xcassets */; };
 		F54172722BFD984D00CF33AA /* LilyComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172712BFD984D00CF33AA /* LilyComposerTests.swift */; };
 		F541727C2BFD984D00CF33AA /* LilyComposerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541727B2BFD984D00CF33AA /* LilyComposerUITests.swift */; };
 		F541727E2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */; };
+		F541728B2BFD989100CF33AA /* FinalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541728A2BFD989100CF33AA /* FinalPageView.swift */; };
+		F541728D2BFD989B00CF33AA /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541728C2BFD989B00CF33AA /* LandingPageView.swift */; };
+		F54172972BFD98F400CF33AA /* FluteRotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172912BFD98F400CF33AA /* FluteRotatingView.swift */; };
+		F54172982BFD98F400CF33AA /* MusicNotRotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172922BFD98F400CF33AA /* MusicNotRotatingView.swift */; };
+		F54172992BFD98F400CF33AA /* PianoRotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172932BFD98F400CF33AA /* PianoRotatingView.swift */; };
+		F541729A2BFD98F400CF33AA /* TutorialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172942BFD98F400CF33AA /* TutorialsView.swift */; };
+		F541729B2BFD98F400CF33AA /* ViolinRotatingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172952BFD98F400CF33AA /* ViolinRotatingVIew.swift */; };
+		F54172A32BFDA21000CF33AA /* openingSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F54172A22BFDA21000CF33AA /* openingSong.mp3 */; };
+		F54172A52BFDA3EA00CF33AA /* TitleRotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172A42BFDA3EA00CF33AA /* TitleRotatingView.swift */; };
+		F54172A92BFDA87B00CF33AA /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54172A82BFDA87B00CF33AA /* GamePlayView.swift */; };
+		F57A0E7D2C0265BB00A313D0 /* piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F57A0E7A2C0265BA00A313D0 /* piano.mp3 */; };
+		F57A0E7E2C0265BB00A313D0 /* flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F57A0E7B2C0265BA00A313D0 /* flute.mp3 */; };
+		F57A0E7F2C0265BB00A313D0 /* violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F57A0E7C2C0265BB00A313D0 /* violin.mp3 */; };
+		F57A0E812C02671C00A313D0 /* TotoroFull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F57A0E802C02671C00A313D0 /* TotoroFull.mp3 */; };
+		F57DE0F22C022C72008FC833 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = F57DE0F12C022C72008FC833 /* MyTileSet.sks */; };
+		F57DE0F42C022F64008FC833 /* CottonWorldScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F57DE0F32C022F64008FC833 /* CottonWorldScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +50,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F53099302C057F9400013C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../.Trash/LittleComposer 22.02.18/LittleComposer/Assets.xcassets"; sourceTree = "<group>"; };
+		F53099322C0580B000013C75 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		F541725D2BFD984B00CF33AA /* LilyComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54172602BFD984B00CF33AA /* LilyComposerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerApp.swift; sourceTree = "<group>"; };
-		F54172622BFD984B00CF33AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F54172642BFD984D00CF33AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54172672BFD984D00CF33AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F541726D2BFD984D00CF33AA /* LilyComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54172712BFD984D00CF33AA /* LilyComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerTests.swift; sourceTree = "<group>"; };
 		F54172772BFD984D00CF33AA /* LilyComposerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyComposerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F541727B2BFD984D00CF33AA /* LilyComposerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerUITests.swift; sourceTree = "<group>"; };
 		F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyComposerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F541728A2BFD989100CF33AA /* FinalPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPageView.swift; sourceTree = "<group>"; };
+		F541728C2BFD989B00CF33AA /* LandingPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		F54172912BFD98F400CF33AA /* FluteRotatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluteRotatingView.swift; sourceTree = "<group>"; };
+		F54172922BFD98F400CF33AA /* MusicNotRotatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicNotRotatingView.swift; sourceTree = "<group>"; };
+		F54172932BFD98F400CF33AA /* PianoRotatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoRotatingView.swift; sourceTree = "<group>"; };
+		F54172942BFD98F400CF33AA /* TutorialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsView.swift; sourceTree = "<group>"; };
+		F54172952BFD98F400CF33AA /* ViolinRotatingVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViolinRotatingVIew.swift; sourceTree = "<group>"; };
+		F54172A22BFDA21000CF33AA /* openingSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = openingSong.mp3; sourceTree = "<group>"; };
+		F54172A42BFDA3EA00CF33AA /* TitleRotatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRotatingView.swift; sourceTree = "<group>"; };
+		F54172A82BFDA87B00CF33AA /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
+		F57A0E7A2C0265BA00A313D0 /* piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano.mp3; sourceTree = "<group>"; };
+		F57A0E7B2C0265BA00A313D0 /* flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flute.mp3; sourceTree = "<group>"; };
+		F57A0E7C2C0265BB00A313D0 /* violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin.mp3; sourceTree = "<group>"; };
+		F57A0E802C02671C00A313D0 /* TotoroFull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TotoroFull.mp3; sourceTree = "<group>"; };
+		F57DE0F12C022C72008FC833 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
+		F57DE0F32C022F64008FC833 /* CottonWorldScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CottonWorldScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +126,16 @@
 		F541725F2BFD984B00CF33AA /* LilyComposer */ = {
 			isa = PBXGroup;
 			children = (
+				F54172902BFD98F400CF33AA /* Audio */,
+				F54172962BFD98F400CF33AA /* Components */,
 				F54172602BFD984B00CF33AA /* LilyComposerApp.swift */,
-				F54172622BFD984B00CF33AA /* ContentView.swift */,
-				F54172642BFD984D00CF33AA /* Assets.xcassets */,
+				F541728C2BFD989B00CF33AA /* LandingPageView.swift */,
+				F54172A82BFDA87B00CF33AA /* GamePlayView.swift */,
+				F541728A2BFD989100CF33AA /* FinalPageView.swift */,
+				F57DE0F32C022F64008FC833 /* CottonWorldScene.sks */,
+				F53099322C0580B000013C75 /* MyScene.sks */,
+				F57DE0F12C022C72008FC833 /* MyTileSet.sks */,
+				F53099302C057F9400013C75 /* Assets.xcassets */,
 				F54172662BFD984D00CF33AA /* Preview Content */,
 			);
 			path = LilyComposer;
@@ -125,6 +164,31 @@
 				F541727D2BFD984D00CF33AA /* LilyComposerUITestsLaunchTests.swift */,
 			);
 			path = LilyComposerUITests;
+			sourceTree = "<group>";
+		};
+		F54172902BFD98F400CF33AA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F57A0E7B2C0265BA00A313D0 /* flute.mp3 */,
+				F57A0E7A2C0265BA00A313D0 /* piano.mp3 */,
+				F57A0E7C2C0265BB00A313D0 /* violin.mp3 */,
+				F57A0E802C02671C00A313D0 /* TotoroFull.mp3 */,
+				F54172A22BFDA21000CF33AA /* openingSong.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F54172962BFD98F400CF33AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F54172912BFD98F400CF33AA /* FluteRotatingView.swift */,
+				F54172922BFD98F400CF33AA /* MusicNotRotatingView.swift */,
+				F54172932BFD98F400CF33AA /* PianoRotatingView.swift */,
+				F54172942BFD98F400CF33AA /* TutorialsView.swift */,
+				F54172952BFD98F400CF33AA /* ViolinRotatingVIew.swift */,
+				F54172A42BFDA3EA00CF33AA /* TitleRotatingView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54172A32BFDA21000CF33AA /* openingSong.mp3 in Resources */,
 				F54172682BFD984D00CF33AA /* Preview Assets.xcassets in Resources */,
-				F54172652BFD984D00CF33AA /* Assets.xcassets in Resources */,
+				F53099332C0580B000013C75 /* MyScene.sks in Resources */,
+				F57A0E7D2C0265BB00A313D0 /* piano.mp3 in Resources */,
+				F57DE0F42C022F64008FC833 /* CottonWorldScene.sks in Resources */,
+				F57DE0F22C022C72008FC833 /* MyTileSet.sks in Resources */,
+				F57A0E7F2C0265BB00A313D0 /* violin.mp3 in Resources */,
+				F57A0E812C02671C00A313D0 /* TotoroFull.mp3 in Resources */,
+				F53099312C057F9400013C75 /* Assets.xcassets in Resources */,
+				F57A0E7E2C0265BB00A313D0 /* flute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54172632BFD984B00CF33AA /* ContentView.swift in Sources */,
+				F541729A2BFD98F400CF33AA /* TutorialsView.swift in Sources */,
+				F54172992BFD98F400CF33AA /* PianoRotatingView.swift in Sources */,
+				F541729B2BFD98F400CF33AA /* ViolinRotatingVIew.swift in Sources */,
+				F541728D2BFD989B00CF33AA /* LandingPageView.swift in Sources */,
+				F541728B2BFD989100CF33AA /* FinalPageView.swift in Sources */,
+				F54172972BFD98F400CF33AA /* FluteRotatingView.swift in Sources */,
+				F54172A52BFDA3EA00CF33AA /* TitleRotatingView.swift in Sources */,
+				F54172982BFD98F400CF33AA /* MusicNotRotatingView.swift in Sources */,
+				F54172A92BFDA87B00CF33AA /* GamePlayView.swift in Sources */,
 				F54172612BFD984B00CF33AA /* LilyComposerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +508,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +516,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,8 +540,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +548,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = annisa.LilyComposer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
